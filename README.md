@@ -13,27 +13,27 @@ A stream has 8 attributes:
   3)streamGenre: a) Music: 1 - pop, 2 - latin, 3 - house, 4 - dance, 5 - trap
                 b) Podcast: 1 - documentary, 2 - celebrities, 3 - tech
                 c) Audiobook: 1 - fiction, 2 - personal development, 3 - children; 
-  -noOfStreams; 
-  -streamerId; 
-  -length; 
-  -dateAdded; 
-  -name; 
+  4)noOfStreams; 
+  5)streamerId; 
+  6)length; 
+  7)dateAdded; 
+  8)name; 
 
 A user has 3 attributes:
-  -id; 
-  -name; 
-  -streams: the history of listened streams; 
+  1)id; 
+  2)name; 
+  3)streams: the history of listened streams; 
 
 Commands for streamer:
-  -add stream; 
-  -list streams; 
-  -delete stream; 
+  1)add stream; 
+  2)list streams; 
+  3)delete stream; 
 
 Commands for users:
-  -list history; 
-  -watch a stream; 
-  -recommend 5 streams based on preferences; 
-  -recommend 3 surprise streams; 
+  1)list history; 
+  2)watch a stream; 
+  3)recommend 5 streams based on preferences; 
+  4)recommend 3 surprise streams; 
 
 In the implementation of the application, I used several design patterns:
   -Command; 
