@@ -3,14 +3,14 @@
 A Java streaming application with two types of users, streamers and users, implemented using Object-Oriented Programming, employing 5 design patterns.
 
 A streamer has 3 attributes:
-  -streamerType :1 - Musician, 2 - Podcast Host, 3 - Audiobook Author
-  -id
-  -name
+  1)streamerType :1 - Musician, 2 - Podcast Host, 3 - Audiobook Author
+  2)id
+  3)name
 
 A stream has 8 attributes:
-  -streamType: 1 - Music, 2 - Podcast, 3 - Audiobook
-  -id
-  -streamGenre: a) Music: 1 - pop, 2 - latin, 3 - house, 4 - dance, 5 - trap
+  1)streamType: 1 - Music, 2 - Podcast, 3 - Audiobook
+  2)id
+  3)streamGenre: a) Music: 1 - pop, 2 - latin, 3 - house, 4 - dance, 5 - trap
                 b) Podcast: 1 - documentary, 2 - celebrities, 3 - tech
                 c) Audiobook: 1 - fiction, 2 - personal development, 3 - children
   -noOfStreams
